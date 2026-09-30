@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "appVersion": "1.12.2",
+  "appVersionSource": "lib/changelog.ts",
+  "packageVersion": "1.12.2",
+  "versionConsistent": true,
+  "commit": "33cf856327abc9319ea2ceb9721b00fabfcd8f82",
+  "commitShort": "33cf856",
+  "branch": "main",
+  "dirty": false,
+  "dirtyFileCount": 0,
+  "tags": [],
+  "buildTime": "2026-09-21T08:05:27.004Z",
+  "buildId": "O62Kzu1tXqgSZaY1Cbent",
+  "slim": true,
+  "node": "v22.23.2",
+  "packager": {
+    "path": "scripts/package-portable.mjs",
+    "sha256": "55fee200b81eaadefc2d041d61f2ea98f65a73f8ec4a83379cd2ea2afacf9f2b"
+  },
+  "warnings": []
+}

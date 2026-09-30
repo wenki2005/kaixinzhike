@@ -1,0 +1,155 @@
+{
+  "id": "0Q6Q8wZVRm",
+  "stage": {
+    "id": "0Q6Q8wZVRm",
+    "name": "Node Smoke Course",
+    "languageDirective": "Teach in English with concise explanations.",
+    "videoManifest": {},
+    "style": "classic",
+    "createdAt": 1789976797788,
+    "updatedAt": 1789976797788,
+    "agentIds": [
+      "default-1",
+      "default-2",
+      "default-3",
+      "default-4",
+      "default-5",
+      "default-6"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_5bebfz6kU8",
+      "stageId": "0Q6Q8wZVRm",
+      "title": "Smoke-Test Outline 1",
+      "order": 1,
+      "actions": [
+        {
+          "id": "action_E5X2lK-Z",
+          "type": "speech",
+          "text": "Dependency injection lets the caller control the model while generation stays pure."
+        }
+      ],
+      "outlineId": "scene_1",
+      "createdAt": 1789976797937,
+      "updatedAt": 1789976797937,
+      "type": "slide",
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "wtVSwjynJV39MzmL9vMRL",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "type": "text",
+              "left": 80,
+              "top": 80,
+              "width": 840,
+              "height": 100,
+              "content": "Dependency injection keeps model routing outside the generation package.",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "id": "text_Hh2grJTt",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "scene_rijcYwcoyX",
+      "stageId": "0Q6Q8wZVRm",
+      "title": "Smoke-Test Outline 2",
+      "order": 2,
+      "actions": [
+        {
+          "id": "action_r9MunrdP",
+          "type": "speech",
+          "text": "Dependency injection lets the caller control the model while generation stays pure."
+        }
+      ],
+      "outlineId": "scene_2",
+      "createdAt": 1789976798096,
+      "updatedAt": 1789976798096,
+      "type": "slide",
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "9Moxc8BFoVdWHAcnuKuPk",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "type": "text",
+              "left": 80,
+              "top": 80,
+              "width": 840,
+              "height": 100,
+              "content": "Dependency injection keeps model routing outside the generation package.",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "id": "text_zu_T2Z03",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": "2026-09-21T07:46:38.103Z"
+}

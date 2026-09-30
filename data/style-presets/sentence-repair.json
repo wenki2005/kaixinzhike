@@ -1,0 +1,626 @@
+{
+  "id": "sentence-repair",
+  "name": "句子维修站",
+  "nameEn": "Sentence Repair",
+  "tagline": "从《句子维修站：谁拿着钥匙？》提取：浅色底 · Microsoft YaHei, Source Sans 3 · 17px 圆角",
+  "description": "由本机已有课件自动提取的风格。来源文档：《句子维修站：谁拿着钥匙？》。识别到 10 个 CSS 变量、1 份外部样式表、7 个页面区域。",
+  "tags": [
+    "K12",
+    "通识"
+  ],
+  "dark": false,
+  "theme": {
+    "backgroundColor": "#9bdcf8",
+    "themeColors": [
+      "#1687ed",
+      "#45be63",
+      "#ef6871",
+      "#d8eaf5",
+      "#ffffff"
+    ],
+    "fontColor": "#173668",
+    "fontName": "Source Sans 3, Microsoft YaHei, Noto Sans SC",
+    "outline": {
+      "color": "#d8eaf5",
+      "width": 2,
+      "style": "solid"
+    },
+    "shadow": {
+      "h": 0,
+      "v": 12,
+      "blur": 32,
+      "color": "#22598226"
+    }
+  },
+  "tokens": {
+    "background": "#9bdcf8",
+    "surface": "#ffffff",
+    "surfaceAlt": "#e6f3ff",
+    "primary": "#1687ed",
+    "secondary": "#45be63",
+    "accent": "#ef6871",
+    "text": "#173668",
+    "textMuted": "#55708d",
+    "border": "#d8eaf5",
+    "radius": 17,
+    "shadow": "0 12px 32px rgba(34,89,130,.15)",
+    "fontHeading": "Microsoft YaHei, Source Sans 3",
+    "fontBody": "Microsoft YaHei",
+    "fontMono": "Source Sans 3, JetBrains Mono"
+  },
+  "layout": {
+    "density": "balanced",
+    "safeMargin": 24,
+    "displaySize": 45,
+    "titleSize": 36,
+    "bodySize": 22,
+    "captionSize": 16,
+    "titleAlign": "left",
+    "titleTreatment": "A left-aligned headline at 36 units, sitting on the source's grid",
+    "decoration": "generous rounded corners, raised panels with a soft shadow, accents in #1687ed",
+    "pageFurniture": "The source keeps its content on raised cards; a quiet folio is enough"
+  },
+  "guidance": {
+    "visualIdea": "This lesson is a re-skin of \"句子维修站：谁拿着钥匙？\": a light mid-tone ground (#9bdcf8), generously rounded surfaces, raised panels with a soft shadow and a balanced layout. Reproduce that character, not a generic template.",
+    "colorRules": [
+      "themeColors[0] (#1687ed) is the primary accent, taken from the source's `--blue`.",
+      "themeColors[1] (#45be63) is the secondary, taken from the source's `--green`.",
+      "themeColors[2] (#ef6871) is the attention colour, taken from the source's `--coral`.",
+      "themeColors[3] and themeColors[4] support the palette; do not introduce a colour outside these five.",
+      "Text uses #173668, taken from the source's `--ink`; secondary text is #55708d, from the source's `--muted`.",
+      "Surfaces use #ffffff (recessed areas #e6f3ff), separated by #d8eaf5 hairlines.",
+      "Roles the source did not name as variables — surfaceAlt — were inferred from which colours the stylesheet uses most; treat them as the weakest part of this palette."
+    ],
+    "typographyRules": [
+      "The typeface is Microsoft YaHei, Source Sans 3, mapped from the source's own font stack onto a family this product loads.",
+      "Type scale: 45 for a cover title, 36 for an in-page headline, 22 for body copy, 16 for captions.",
+      "The source is a web page; its px sizes were scaled to slide units and clamped for projection legibility. Follow the numbers above, not the source page's CSS."
+    ],
+    "layoutRules": [
+      "Keep a 24-unit safe margin; the source page's whitespace ratio is balanced.",
+      "Decoration: generous rounded corners, raised panels with a soft shadow, accents in #1687ed.",
+      "The source keeps its content on raised cards; a quiet folio is enough"
+    ],
+    "avoid": [
+      "Colours, fonts or corner radii that are not in this palette — the whole point of this style is that it matches the source.",
+      "Heavy dark panels; the source keeps its ground light.",
+      "Dense, edge-to-edge layouts; the source leaves the margins above."
+    ]
+  },
+  "structure": {
+    "skeleton": [
+      {
+        "role": "page frame",
+        "level": "region",
+        "tag": "div",
+        "classes": "page-shell",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "top bar",
+        "level": "region",
+        "tag": "header",
+        "classes": "topbar",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "progress indicator",
+        "level": "panel",
+        "tag": "div",
+        "classes": "top-progress",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "progress indicator",
+        "level": "panel",
+        "tag": "div",
+        "classes": "progress-meta",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "progress indicator",
+        "level": "panel",
+        "tag": "div",
+        "classes": "progress-track",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "top-actions",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "page frame",
+        "level": "region",
+        "tag": "main",
+        "classes": "",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "title row",
+        "level": "region",
+        "tag": "section",
+        "classes": "title-row",
+        "heading": "谁拿着钥匙？ 句子维修站"
+      },
+      {
+        "role": "lesson panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "lesson-chip",
+        "heading": "先看看：哪位同学拿着钥匙？"
+      },
+      {
+        "role": "progress indicator",
+        "level": "panel",
+        "tag": "ol",
+        "classes": "stepper",
+        "heading": "先看看：哪位同学拿着钥匙？"
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "section",
+        "classes": "workspace",
+        "heading": "先看看：哪位同学拿着钥匙？",
+        "geometry": {
+          "selector": ".workspace",
+          "mode": "grid",
+          "tracks": [
+            "minmax(0,1.13fr)",
+            "minmax(0,1fr)"
+          ],
+          "columnCount": 2,
+          "ratio": "53/47",
+          "aspectRatio": null,
+          "gap": null,
+          "media": "@media(min-width:1001px)",
+          "wide": true
+        }
+      },
+      {
+        "role": "scene panel",
+        "level": "region",
+        "tag": "section",
+        "classes": "scene-panel panel",
+        "heading": "先看看：哪位同学拿着钥匙？"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "panel-heading",
+        "heading": "先看看：哪位同学拿着钥匙？"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "scene-frame",
+        "heading": "把描述接对人",
+        "geometry": {
+          "selector": ".scene-frame",
+          "mode": "block",
+          "tracks": [],
+          "columnCount": 0,
+          "ratio": null,
+          "aspectRatio": "3 / 2",
+          "gap": null,
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "scene-backdrop",
+        "heading": "把描述接对人"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "scene-label",
+        "heading": "把描述接对人"
+      },
+      {
+        "role": "people-layer",
+        "level": "panel",
+        "tag": "div",
+        "classes": "people-layer",
+        "heading": "把描述接对人"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "scene-caption",
+        "heading": "把描述接对人"
+      },
+      {
+        "role": "lesson panel",
+        "level": "region",
+        "tag": "section",
+        "classes": "lesson-panel panel",
+        "heading": "把描述接对人"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "panel-heading lesson-heading",
+        "heading": "把描述接对人"
+      },
+      {
+        "role": "feedback",
+        "level": "panel",
+        "tag": "div",
+        "classes": "mission-note",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "content section",
+        "level": "panel",
+        "tag": "div",
+        "classes": "sentence-card",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "sentence-topline",
+        "level": "panel",
+        "tag": "div",
+        "classes": "sentence-topline",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "sentence",
+        "level": "panel",
+        "tag": "div",
+        "classes": "sentence",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "sentence-actions",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "feedback",
+        "level": "panel",
+        "tag": "div",
+        "classes": "feedback-box",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "analysis panel",
+        "level": "region",
+        "tag": "section",
+        "classes": "analysis-layout",
+        "heading": "结构拆解",
+        "geometry": {
+          "selector": ".analysis-layout",
+          "mode": "grid",
+          "tracks": [
+            "1.1fr",
+            ".9fr"
+          ],
+          "columnCount": 2,
+          "ratio": "55/45",
+          "aspectRatio": null,
+          "gap": null,
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "analysis panel",
+        "level": "region",
+        "tag": "section",
+        "classes": "structure-panel panel",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "section-heading",
+        "heading": "结构拆解"
+      },
+      {
+        "role": "analysis panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "structure-grid",
+        "heading": "操作台",
+        "geometry": {
+          "selector": ".structure-grid",
+          "mode": "grid",
+          "tracks": [
+            "1fr",
+            "1fr",
+            "1fr"
+          ],
+          "columnCount": 3,
+          "ratio": "34/33/33",
+          "aspectRatio": null,
+          "gap": "10px",
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "feedback",
+        "level": "panel",
+        "tag": "div",
+        "classes": "conflict-note",
+        "heading": "操作台"
+      },
+      {
+        "role": "tool row",
+        "level": "region",
+        "tag": "section",
+        "classes": "tool-panel panel",
+        "heading": "操作台"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "section-heading",
+        "heading": "操作台"
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "tool-actions",
+        "heading": null
+      },
+      {
+        "role": "tool row",
+        "level": "region",
+        "tag": "div",
+        "classes": "compare-wrap",
+        "heading": null
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "compare-title",
+        "heading": null,
+        "geometry": {
+          "selector": ".compare-title,.compare-row",
+          "mode": "grid",
+          "tracks": [
+            "1fr",
+            "20px",
+            "1fr"
+          ],
+          "columnCount": 3,
+          "ratio": null,
+          "aspectRatio": null,
+          "gap": "8px",
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "compare-row",
+        "heading": null,
+        "geometry": {
+          "selector": ".compare-title,.compare-row",
+          "mode": "grid",
+          "tracks": [
+            "1fr",
+            "20px",
+            "1fr"
+          ],
+          "columnCount": 3,
+          "ratio": null,
+          "aspectRatio": null,
+          "gap": "8px",
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "tool-foot",
+        "heading": null
+      },
+      {
+        "role": "navigation",
+        "level": "panel",
+        "tag": "div",
+        "classes": "bottom-nav",
+        "heading": null
+      },
+      {
+        "role": "feedback",
+        "level": "panel",
+        "tag": "div",
+        "classes": "toast",
+        "heading": null
+      }
+    ],
+    "roles": [
+      "top bar",
+      "title row",
+      "content section",
+      "scene panel",
+      "lesson panel",
+      "analysis panel",
+      "tool row"
+    ],
+    "skeletonOrder": [
+      "top bar",
+      "title row",
+      "content section",
+      "scene panel",
+      "lesson panel",
+      "analysis panel",
+      "tool row"
+    ],
+    "geometry": [
+      {
+        "selector": ".workspace",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1.13fr)",
+          "minmax(0,1fr)"
+        ],
+        "columnCount": 2,
+        "ratio": "53/47",
+        "aspectRatio": null,
+        "gap": null,
+        "media": "@media(min-width:1001px)",
+        "wide": true
+      },
+      {
+        "selector": ".compare-title,.compare-row",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "20px",
+          "1fr"
+        ],
+        "columnCount": 3,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": "8px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".structure-grid",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 3,
+        "ratio": "34/33/33",
+        "aspectRatio": null,
+        "gap": "10px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".structure-grid.neutral",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1.5fr",
+          "1fr"
+        ],
+        "columnCount": 3,
+        "ratio": "29/42/29",
+        "aspectRatio": null,
+        "gap": null,
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".analysis-layout",
+        "mode": "grid",
+        "tracks": [
+          "1.1fr",
+          ".9fr"
+        ],
+        "columnCount": 2,
+        "ratio": "55/45",
+        "aspectRatio": null,
+        "gap": null,
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".compare-title",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 2,
+        "ratio": "50/50",
+        "aspectRatio": null,
+        "gap": null,
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".structure-grid.comparison",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 2,
+        "ratio": "50/50",
+        "aspectRatio": null,
+        "gap": "16px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".subject-pair",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 2,
+        "ratio": "50/50",
+        "aspectRatio": null,
+        "gap": "24px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".workspace,.analysis-layout",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1.08fr)",
+          "minmax(420px,.92fr)"
+        ],
+        "columnCount": 2,
+        "ratio": "54/46",
+        "aspectRatio": null,
+        "gap": "18px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".scene-frame",
+        "mode": "block",
+        "tracks": [],
+        "columnCount": 0,
+        "ratio": null,
+        "aspectRatio": "3 / 2",
+        "gap": null,
+        "media": null,
+        "wide": false
+      }
+    ],
+    "counts": {
+      "regions": 7,
+      "panels": 29,
+      "headings": 5,
+      "hasProgress": true,
+      "hasNavigation": true,
+      "hasCardGrid": true
+    }
+  }
+}

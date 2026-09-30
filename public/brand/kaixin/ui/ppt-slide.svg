@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="开心智课 PPT 页面布局">
+  <rect width="1600" height="900" fill="#EAF7FE"/>
+  <path d="M0 0h620L380 210H0z" fill="#D8F0FC"/>
+  <path d="M1600 0h-420l220 190h200z" fill="#FFF2D8"/>
+  <rect x="70" y="62" width="1460" height="776" rx="34" fill="#FFFFFF"/>
+  <image href="logo-horizontal.png" x="1296" y="88" width="184" height="46" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="102" y="106" width="600" height="68" rx="22" fill="#F4FBFF"/>
+  <text x="136" y="151" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="700" fill="#2477B4">动手探索 · 第 2 页</text>
+  <text x="102" y="268" font-family="Noto Sans SC, sans-serif" font-size="52" font-weight="800" fill="#00214E">浮力的大小和什么有关？</text>
+  <text x="104" y="316" font-family="Noto Sans SC, sans-serif" font-size="23" fill="#55708B">先预测，再拖动滑块观察测力计读数。</text>
+  <rect x="102" y="386" width="700" height="352" rx="28" fill="#F4FBFF" stroke="#CFEAF8" stroke-width="2"/>
+  <circle cx="454" cy="568" r="86" fill="#FFFFFF" stroke="#65C7F7" stroke-width="10"/>
+  <path d="M448 494l20 72-38 14z" fill="#D60010"/>
+  <path d="M340 650c80-34 154-42 226 0" fill="none" stroke="#65C7F7" stroke-width="12" stroke-linecap="round"/>
+  <image href="teacher-female.png" x="150" y="430" width="132" height="132" preserveAspectRatio="xMidYMid meet"/>
+  <path d="M292 446h428a22 22 0 0 1 22 22v76a22 22 0 0 1-22 22H292z" fill="#FFFFFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="322" y="492" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="700" fill="#00214E">先猜：读数会怎样变？</text>
+  <text x="322" y="524" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#55708B">把你的预测说给同伴听。</text>
+  <rect x="860" y="386" width="564" height="352" rx="28" fill="#FFFFFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="904" y="441" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#00214E">三个观察点</text>
+  <circle cx="924" cy="496" r="16" fill="#D60010"/>
+  <text x="960" y="504" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#2E5C8A">物体浸入多深</text>
+  <circle cx="924" cy="562" r="16" fill="#F7C948"/>
+  <text x="960" y="570" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#2E5C8A">液体的多少</text>
+  <circle cx="924" cy="628" r="16" fill="#67C98A"/>
+  <text x="960" y="636" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#2E5C8A">测力计读数</text>
+  <rect x="102" y="770" width="1322" height="1" fill="#DDEEF7"/>
+  <text x="102" y="810" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#7B91A6">开心智课 · 让每一次动手都有发现</text>
+  <path d="M1418 794l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z" fill="#F7C948"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="开心智课互动网页横屏布局">
+  <rect width="1600" height="900" fill="#EAF7FE"/>
+  <circle cx="90" cy="90" r="34" fill="#D8F0FC"/>
+  <circle cx="1510" cy="810" r="58" fill="#FFF2D8"/>
+  <rect x="72" y="52" width="1456" height="796" rx="36" fill="#FFFFFF"/>
+  <rect x="72" y="52" width="1456" height="82" rx="36" fill="#F8FCFF"/>
+  <rect x="72" y="102" width="1456" height="32" fill="#F8FCFF"/>
+  <image href="logo-horizontal.png" x="108" y="66" width="220" height="54" preserveAspectRatio="xMinYMid meet"/>
+  <rect x="372" y="83" width="570" height="20" rx="10" fill="#DCEFF9"/>
+  <rect x="372" y="83" width="288" height="20" rx="10" fill="#67C98A"/>
+  <text x="1260" y="101" font-family="Noto Sans SC, sans-serif" font-size="21" font-weight="600" fill="#00214E">2 / 3</text>
+  <rect x="103" y="164" width="314" height="619" rx="26" fill="#F4FBFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="132" y="211" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#00214E">目录</text>
+  <rect x="124" y="240" width="272" height="48" rx="14" fill="#FFE5E3"/>
+  <circle cx="150" cy="264" r="6" fill="#D60010"/>
+  <text x="170" y="272" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="600" fill="#D60010">认识浮力</text>
+  <rect x="144" y="306" width="232" height="38" rx="12" fill="#FFFFFF"/>
+  <text x="166" y="332" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#2E5C8A">动手测一测</text>
+  <rect x="144" y="360" width="232" height="38" rx="12" fill="#FFFFFF"/>
+  <text x="166" y="386" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#2E5C8A">潜水艇挑战</text>
+  <image href="teacher-female.png" x="118" y="594" width="112" height="112" preserveAspectRatio="xMidYMid meet"/>
+  <path d="M240 600h132a24 24 0 0 1 24 24v58a24 24 0 0 1-24 24H240z" fill="#FFFFFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="262" y="643" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="700" fill="#00214E">先摸一摸</text>
+  <text x="262" y="674" font-family="Noto Sans SC, sans-serif" font-size="17" fill="#55708B">再猜猜为什么</text>
+  <rect x="451" y="164" width="1048" height="619" rx="30" fill="#FBFDFF"/>
+  <rect x="489" y="199" width="162" height="34" rx="17" fill="#EAF7FE"/>
+  <text x="518" y="223" font-family="Noto Sans SC, sans-serif" font-size="15" font-weight="700" fill="#2477B4">探险第 2 页</text>
+  <text x="489" y="293" font-family="Noto Sans SC, sans-serif" font-size="42" font-weight="800" fill="#00214E">拖动小球，看看浮力怎么变</text>
+  <text x="489" y="334" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#55708B">只改变一个条件，观察读数变化。</text>
+  <rect x="489" y="386" width="970" height="286" rx="28" fill="#F4FBFF" stroke="#CFEAF8" stroke-width="2"/>
+  <rect x="540" y="435" width="370" height="190" rx="24" fill="#FFFFFF"/>
+  <rect x="574" y="472" width="300" height="18" rx="9" fill="#DDF0F9"/>
+  <path d="M594 572c50-70 88-92 126-62 40-78 96-62 118 8" fill="none" stroke="#65C7F7" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="708" cy="536" r="20" fill="#F7C948"/>
+  <rect x="952" y="418" width="450" height="224" rx="24" fill="#FFFFFF"/>
+  <text x="984" y="462" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="700" fill="#00214E">水的多少</text>
+  <rect x="984" y="488" width="358" height="12" rx="6" fill="#DDEEF7"/>
+  <rect x="984" y="488" width="226" height="12" rx="6" fill="#65C7F7"/>
+  <circle cx="1230" cy="494" r="18" fill="#FFFFFF" stroke="#65C7F7" stroke-width="5"/>
+  <rect x="984" y="558" width="170" height="50" rx="16" fill="#D60010"/>
+  <text x="1023" y="591" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">试一试</text>
+  <rect x="1176" y="558" width="170" height="50" rx="16" fill="#EAF7FE"/>
+  <text x="1218" y="591" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#2477B4">重置</text>
+  <rect x="489" y="704" width="970" height="48" rx="16" fill="#FFF7E4"/>
+  <text x="518" y="735" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#8B5E12">发现：水位越高，测力计读数越小。</text>
+</svg>

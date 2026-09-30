@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="112" viewBox="0 0 360 112" role="img" aria-label="开心智课">
+  <rect x="2" y="2" width="356" height="108" rx="24" fill="#FFFFFF" stroke="#CFEAF8" stroke-width="2"/>
+  <image href="logo-horizontal.png" x="18" y="18" width="250" height="76" preserveAspectRatio="xMinYMid meet"/>
+  <path d="M300 36l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z" fill="#F7C948"/>
+  <circle cx="326" cy="70" r="5" fill="#65C7F7"/>
+  <circle cx="309" cy="78" r="3" fill="#EA6A68"/>
+</svg>

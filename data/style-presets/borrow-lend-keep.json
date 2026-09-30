@@ -1,0 +1,103 @@
+{
+  "id": "borrow-lend-keep",
+  "name": "正在进入借法实验室",
+  "nameEn": "Borrow Lend Keep",
+  "tagline": "从《正在进入借法实验室》提取：浅色底 · Noto Sans SC · 6px 圆角",
+  "description": "由本机已有课件自动提取的风格。来源文档：《正在进入借法实验室》。识别到 0 个 CSS 变量、0 份外部样式表、0 个页面区域。",
+  "tags": [
+    "K12",
+    "通识"
+  ],
+  "dark": false,
+  "theme": {
+    "backgroundColor": "#ffffff",
+    "themeColors": [
+      "#333333",
+      "#2a2a2a",
+      "#212121",
+      "#171717",
+      "#0e0e0e"
+    ],
+    "fontColor": "#333333",
+    "fontName": "Noto Sans SC",
+    "outline": {
+      "color": "#333333",
+      "width": 2,
+      "style": "solid"
+    },
+    "shadow": {
+      "h": 0,
+      "v": 0,
+      "blur": 0,
+      "color": "#00000000"
+    }
+  },
+  "tokens": {
+    "background": "#ffffff",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff",
+    "primary": "#333333",
+    "secondary": "#333333",
+    "accent": "#333333",
+    "text": "#333333",
+    "textMuted": "#333333",
+    "border": "#333333",
+    "radius": 6,
+    "shadow": "none",
+    "fontHeading": "Noto Sans SC",
+    "fontBody": "Noto Sans SC",
+    "fontMono": "Noto Sans SC, JetBrains Mono"
+  },
+  "layout": {
+    "density": "balanced",
+    "safeMargin": 40,
+    "displaySize": 45,
+    "titleSize": 36,
+    "bodySize": 22,
+    "captionSize": 16,
+    "titleAlign": "left",
+    "titleTreatment": "A left-aligned headline at 36 units, sitting on the source's grid",
+    "decoration": "softly rounded corners, flat panels separated by hairlines, accents in #333333",
+    "pageFurniture": "A quiet folio in the bottom-right corner"
+  },
+  "guidance": {
+    "visualIdea": "This lesson is a re-skin of \"正在进入借法实验室\": a light white ground (#ffffff), softly rounded surfaces, flat panels divided by hairlines and a balanced layout. Reproduce that character, not a generic template.",
+    "colorRules": [
+      "themeColors[0] (#333333) is the primary accent, taken from the source palette.",
+      "themeColors[1] (#2a2a2a) is the secondary, taken from the source palette.",
+      "themeColors[2] (#212121) is the attention colour, taken from the source palette.",
+      "themeColors[3] and themeColors[4] support the palette; do not introduce a colour outside these five.",
+      "Text uses #333333, taken from the source palette; secondary text is #333333, from the source palette.",
+      "Surfaces use #ffffff (recessed areas #ffffff), separated by #333333 hairlines."
+    ],
+    "typographyRules": [
+      "The typeface is Noto Sans SC, mapped from the source's own font stack onto a family this product loads.",
+      "Type scale: 45 for a cover title, 36 for an in-page headline, 22 for body copy, 16 for captions.",
+      "The source is a web page; its px sizes were scaled to slide units and clamped for projection legibility. Follow the numbers above, not the source page's CSS."
+    ],
+    "layoutRules": [
+      "Keep a 40-unit safe margin; the source page's whitespace ratio is balanced.",
+      "Decoration: softly rounded corners, flat panels separated by hairlines, accents in #333333.",
+      "A quiet folio in the bottom-right corner"
+    ],
+    "avoid": [
+      "Colours, fonts or corner radii that are not in this palette — the whole point of this style is that it matches the source.",
+      "Heavy dark panels; the source keeps its ground light.",
+      "Dense, edge-to-edge layouts; the source leaves the margins above."
+    ]
+  },
+  "structure": {
+    "skeleton": [],
+    "roles": [],
+    "skeletonOrder": [],
+    "geometry": [],
+    "counts": {
+      "regions": 0,
+      "panels": 0,
+      "headings": 0,
+      "hasProgress": false,
+      "hasNavigation": false,
+      "hasCardGrid": false
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "grammar-slash",
+  "name": "语法斩",
+  "nameEn": "Grammar Slash",
+  "tagline": "从《语法斩 · 每次搞定一点》提取：浅色底 · Noto Sans SC · 6px 圆角",
+  "description": "由本机已有课件自动提取的风格。来源文档：《语法斩 · 每次搞定一点》。识别到 5 个 CSS 变量、1 份外部样式表、1 个页面区域。",
+  "tags": [
+    "K12",
+    "通识"
+  ],
+  "dark": false,
+  "theme": {
+    "backgroundColor": "#f6f7fb",
+    "themeColors": [
+      "#315efb",
+      "#274f26",
+      "#548a2c",
+      "#e7eaf2",
+      "#1b2842"
+    ],
+    "fontColor": "#1b2842",
+    "fontName": "Noto Sans SC, sans-serif",
+    "outline": {
+      "color": "#e7eaf2",
+      "width": 2,
+      "style": "solid"
+    },
+    "shadow": {
+      "h": 0,
+      "v": 16,
+      "blur": 50,
+      "color": "#24375807"
+    }
+  },
+  "tokens": {
+    "background": "#f6f7fb",
+    "surface": "#eef3ff",
+    "surfaceAlt": "#d5ff6b99",
+    "primary": "#315efb",
+    "secondary": "#274f26",
+    "accent": "#548a2c",
+    "text": "#1b2842",
+    "textMuted": "#788397",
+    "border": "#e7eaf2",
+    "radius": 6,
+    "shadow": "0 16px 50px #24375807",
+    "fontHeading": "Noto Sans SC",
+    "fontBody": "Noto Sans SC",
+    "fontMono": "JetBrains Mono"
+  },
+  "layout": {
+    "density": "airy",
+    "safeMargin": 26,
+    "displaySize": 45,
+    "titleSize": 36,
+    "bodySize": 22,
+    "captionSize": 16,
+    "titleAlign": "left",
+    "titleTreatment": "A left-aligned headline at 36 units, sitting on the source's grid",
+    "decoration": "softly rounded corners, raised panels with a soft shadow, accents in #315efb",
+    "pageFurniture": "The source keeps its content on raised cards; a quiet folio is enough"
+  },
+  "guidance": {
+    "visualIdea": "This lesson is a re-skin of \"语法斩 · 每次搞定一点\": a light white ground (#f6f7fb), softly rounded surfaces, raised panels with a soft shadow and a airy layout. Reproduce that character, not a generic template.",
+    "colorRules": [
+      "themeColors[0] (#315efb) is the primary accent, taken from the source's `--blue`.",
+      "themeColors[1] (#274f26) is the secondary, taken from the source palette.",
+      "themeColors[2] (#548a2c) is the attention colour, taken from the source palette.",
+      "themeColors[3] and themeColors[4] support the palette; do not introduce a colour outside these five.",
+      "Text uses #1b2842, taken from the source's `--ink`; secondary text is #788397, from the source's `--muted`.",
+      "Surfaces use #eef3ff (recessed areas #d5ff6b99), separated by #e7eaf2 hairlines.",
+      "Roles the source did not name as variables — surface, surfaceAlt, secondary, accent — were inferred from which colours the stylesheet uses most; treat them as the weakest part of this palette."
+    ],
+    "typographyRules": [
+      "The typeface is Noto Sans SC, mapped from the source's own font stack onto a family this product loads.",
+      "Type scale: 45 for a cover title, 36 for an in-page headline, 22 for body copy, 16 for captions.",
+      "The source is a web page; its px sizes were scaled to slide units and clamped for projection legibility. Follow the numbers above, not the source page's CSS."
+    ],
+    "layoutRules": [
+      "Keep a 26-unit safe margin; the source page's whitespace ratio is airy.",
+      "Decoration: softly rounded corners, raised panels with a soft shadow, accents in #315efb.",
+      "The source keeps its content on raised cards; a quiet folio is enough"
+    ],
+    "avoid": [
+      "Colours, fonts or corner radii that are not in this palette — the whole point of this style is that it matches the source.",
+      "Heavy dark panels; the source keeps its ground light.",
+      "Dense, edge-to-edge layouts; the source leaves the margins above."
+    ]
+  },
+  "structure": {
+    "skeleton": [
+      {
+        "role": "top bar",
+        "level": "region",
+        "tag": "header",
+        "classes": "topbar",
+        "heading": "重新开始？"
+      },
+      {
+        "role": "top bar",
+        "level": "panel",
+        "tag": "div",
+        "classes": "header-right",
+        "heading": "重新开始？"
+      },
+      {
+        "role": "page frame",
+        "level": "region",
+        "tag": "main",
+        "classes": "",
+        "heading": "重新开始？"
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "dialog-actions",
+        "heading": null
+      },
+      {
+        "role": "feedback",
+        "level": "panel",
+        "tag": "div",
+        "classes": "storage-note",
+        "heading": null
+      }
+    ],
+    "roles": [
+      "top bar"
+    ],
+    "skeletonOrder": [
+      "top bar"
+    ],
+    "geometry": [
+      {
+        "selector": ".exercise-card",
+        "mode": "grid",
+        "tracks": [
+          "35%",
+          "65%"
+        ],
+        "columnCount": 2,
+        "ratio": "35/65",
+        "aspectRatio": null,
+        "gap": null,
+        "media": "@media(max-height:500px) and (min-width:650px)",
+        "wide": true
+      },
+      {
+        "selector": ".image-wrap",
+        "mode": "block",
+        "tracks": [],
+        "columnCount": 0,
+        "ratio": null,
+        "aspectRatio": "1.4",
+        "gap": null,
+        "media": "@media(max-height:500px) and (min-width:650px)",
+        "wide": true
+      },
+      {
+        "selector": ".stats",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 3,
+        "ratio": "34/33/33",
+        "aspectRatio": null,
+        "gap": null,
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".options",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 2,
+        "ratio": "50/50",
+        "aspectRatio": null,
+        "gap": "11px",
+        "media": null,
+        "wide": false
+      }
+    ],
+    "counts": {
+      "regions": 1,
+      "panels": 3,
+      "headings": 1,
+      "hasProgress": false,
+      "hasNavigation": false,
+      "hasCardGrid": false
+    }
+  }
+}

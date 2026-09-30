@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280" role="img" aria-label="开心智课互动网页竖屏布局">
+  <rect width="720" height="1280" fill="#EAF7FE"/>
+  <rect x="24" y="24" width="672" height="1232" rx="28" fill="#FFFFFF"/>
+  <image href="logo-horizontal.png" x="48" y="42" width="210" height="52" preserveAspectRatio="xMinYMid meet"/>
+  <rect x="376" y="58" width="272" height="18" rx="9" fill="#DDEEF7"/>
+  <rect x="376" y="58" width="164" height="18" rx="9" fill="#67C98A"/>
+  <rect x="48" y="118" width="624" height="58" rx="18" fill="#F4FBFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="72" y="154" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="700" fill="#00214E">目录 · 2 / 3</text>
+  <text x="48" y="235" font-family="Noto Sans SC, sans-serif" font-size="38" font-weight="800" fill="#00214E">让小球动起来</text>
+  <text x="48" y="277" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#55708B">拖动滑块，观察曲线的变化。</text>
+  <image href="teacher-female.png" x="48" y="315" width="108" height="108" preserveAspectRatio="xMidYMid meet"/>
+  <path d="M163 329h388a22 22 0 0 1 22 22v56a22 22 0 0 1-22 22H163z" fill="#FFFFFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="188" y="370" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#00214E">只改变一个条件</text>
+  <text x="188" y="399" font-family="Noto Sans SC, sans-serif" font-size="17" fill="#55708B">先猜一猜，再动手试。</text>
+  <rect x="48" y="472" width="624" height="428" rx="26" fill="#F4FBFF" stroke="#CFEAF8" stroke-width="2"/>
+  <rect x="82" y="516" width="556" height="210" rx="20" fill="#FFFFFF"/>
+  <path d="M120 668c82-34 142-92 210-74 72 19 112 58 180 16" fill="none" stroke="#65C7F7" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="330" cy="596" r="24" fill="#F7C948"/>
+  <rect x="82" y="760" width="556" height="12" rx="6" fill="#DDEEF7"/>
+  <rect x="82" y="760" width="344" height="12" rx="6" fill="#65C7F7"/>
+  <circle cx="426" cy="766" r="18" fill="#FFFFFF" stroke="#65C7F7" stroke-width="5"/>
+  <rect x="82" y="817" width="256" height="54" rx="17" fill="#D60010"/>
+  <text x="142" y="852" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">试一试</text>
+  <rect x="358" y="817" width="280" height="54" rx="17" fill="#FFFFFF" stroke="#CFEAF8" stroke-width="2"/>
+  <text x="444" y="852" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="700" fill="#2477B4">重置</text>
+  <rect x="48" y="934" width="624" height="80" rx="22" fill="#FFF7E4"/>
+  <text x="78" y="970" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#8B5E12">你已经发现：</text>
+  <text x="78" y="997" font-family="Noto Sans SC, sans-serif" font-size="17" fill="#8B5E12">条件变了，结果也会跟着变。</text>
+  <rect x="48" y="1138" width="624" height="74" rx="22" fill="#F8FCFF" stroke="#D7EDF8" stroke-width="2"/>
+  <text x="112" y="1184" font-family="Noto Sans SC, sans-serif" font-size="21" font-weight="700" fill="#55708B">上一页</text>
+  <text x="317" y="1184" font-family="Noto Sans SC, sans-serif" font-size="19" fill="#00214E">2 / 3</text>
+  <text x="498" y="1184" font-family="Noto Sans SC, sans-serif" font-size="21" font-weight="700" fill="#2477B4">下一页</text>
+</svg>

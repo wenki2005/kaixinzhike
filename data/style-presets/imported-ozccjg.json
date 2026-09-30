@@ -1,0 +1,656 @@
+{
+  "id": "imported-ozccjg",
+  "name": "学情罗盘 · 学习分析看板",
+  "nameEn": "Imported Ozccjg",
+  "tagline": "从《学情罗盘 · 英语语法学习报告》提取：浅色底 · Noto Sans SC, Inter · 6px 圆角",
+  "description": "由本机已有课件自动提取的风格。来源文档：《学情罗盘 · 英语语法学习报告》。识别到 10 个 CSS 变量、2 份外部样式表、5 个页面区域。",
+  "tags": [
+    "K12",
+    "通识"
+  ],
+  "dark": false,
+  "theme": {
+    "backgroundColor": "#fffdf9",
+    "themeColors": [
+      "#2c65ff",
+      "#25a994",
+      "#c47720",
+      "#eaf0f6",
+      "#506d99"
+    ],
+    "fontColor": "#0c285b",
+    "fontName": "Inter, Source Sans 3, Noto Sans SC, Microsoft YaHei",
+    "outline": {
+      "color": "#eaf0f6",
+      "width": 2,
+      "style": "solid"
+    },
+    "shadow": {
+      "h": 0,
+      "v": 1,
+      "blur": 5,
+      "color": "#20356312"
+    }
+  },
+  "tokens": {
+    "background": "#fffdf9",
+    "surface": "#ffffff",
+    "surfaceAlt": "#e8effa",
+    "primary": "#2c65ff",
+    "secondary": "#25a994",
+    "accent": "#c47720",
+    "text": "#0c285b",
+    "textMuted": "#7189b0",
+    "border": "#eaf0f6",
+    "radius": 6,
+    "shadow": "0 1px 5px #20356312",
+    "fontHeading": "Noto Sans SC, Inter",
+    "fontBody": "Noto Sans SC",
+    "fontMono": "Inter, JetBrains Mono"
+  },
+  "layout": {
+    "density": "balanced",
+    "safeMargin": 24,
+    "displaySize": 80,
+    "titleSize": 67,
+    "bodySize": 27,
+    "captionSize": 21,
+    "titleAlign": "left",
+    "titleTreatment": "A left-aligned headline at 67 units, sitting on the source's grid",
+    "decoration": "softly rounded corners, raised panels with a soft shadow, accents in #2c65ff",
+    "pageFurniture": "The source keeps its content on raised cards; a quiet folio is enough"
+  },
+  "guidance": {
+    "visualIdea": "This lesson is a re-skin of \"学情罗盘 · 英语语法学习报告\": a light white ground (#fffdf9), softly rounded surfaces, raised panels with a soft shadow and a balanced layout. Reproduce that character, not a generic template.",
+    "colorRules": [
+      "themeColors[0] (#2c65ff) is the primary accent, taken from the source's `--blue`.",
+      "themeColors[1] (#25a994) is the secondary, taken from the source's `--teal`.",
+      "themeColors[2] (#c47720) is the attention colour, taken from the source's `--orange`.",
+      "themeColors[3] and themeColors[4] support the palette; do not introduce a colour outside these five.",
+      "Text uses #0c285b, taken from the source's `--ink`; secondary text is #7189b0, from the source's `--muted`.",
+      "Surfaces use #ffffff (recessed areas #e8effa), separated by #eaf0f6 hairlines.",
+      "Roles the source did not name as variables — surface, surfaceAlt — were inferred from which colours the stylesheet uses most; treat them as the weakest part of this palette."
+    ],
+    "typographyRules": [
+      "The typeface is Noto Sans SC, Inter, mapped from the source's own font stack onto a family this product loads.",
+      "Type scale: 80 for a cover title, 67 for an in-page headline, 27 for body copy, 21 for captions.",
+      "The source is a web page; its px sizes were scaled to slide units and clamped for projection legibility. Follow the numbers above, not the source page's CSS."
+    ],
+    "layoutRules": [
+      "Keep a 24-unit safe margin; the source page's whitespace ratio is balanced.",
+      "Decoration: softly rounded corners, raised panels with a soft shadow, accents in #2c65ff.",
+      "The source keeps its content on raised cards; a quiet folio is enough"
+    ],
+    "avoid": [
+      "Colours, fonts or corner radii that are not in this palette — the whole point of this style is that it matches the source.",
+      "Heavy dark panels; the source keeps its ground light.",
+      "Dense, edge-to-edge layouts; the source leaves the margins above."
+    ]
+  },
+  "structure": {
+    "skeleton": [
+      {
+        "role": "page frame",
+        "level": "region",
+        "tag": "main",
+        "classes": "page dashboard-page",
+        "heading": "学情罗盘"
+      },
+      {
+        "role": "top bar",
+        "level": "region",
+        "tag": "header",
+        "classes": "dashboard-header",
+        "heading": "学情罗盘",
+        "geometry": {
+          "selector": ".dashboard-header",
+          "mode": "grid",
+          "tracks": [
+            "auto",
+            "1fr",
+            "auto"
+          ],
+          "columnCount": 3,
+          "ratio": null,
+          "aspectRatio": null,
+          "gap": "22px",
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "dashboard-title",
+        "heading": "学情罗盘"
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "section",
+        "classes": "filter-card",
+        "heading": null
+      },
+      {
+        "role": "filter-group",
+        "level": "panel",
+        "tag": "div",
+        "classes": "filter-group",
+        "heading": null
+      },
+      {
+        "role": "filter-group",
+        "level": "panel",
+        "tag": "div",
+        "classes": "filter-group module-group",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "date-range",
+        "level": "panel",
+        "tag": "div",
+        "classes": "date-range",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "student-meta",
+        "level": "panel",
+        "tag": "div",
+        "classes": "student-meta",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "dashboard-context",
+        "level": "panel",
+        "tag": "div",
+        "classes": "dashboard-context",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "metrics",
+        "level": "region",
+        "tag": "section",
+        "classes": "metrics",
+        "heading": "学习表现趋势 看本期表现如何变化",
+        "geometry": {
+          "selector": ".metrics",
+          "mode": "grid",
+          "tracks": [
+            "minmax(0,1fr)",
+            "minmax(0,1fr)",
+            "minmax(0,1fr)",
+            "minmax(0,1fr)"
+          ],
+          "columnCount": 4,
+          "ratio": "25/25/25/25",
+          "aspectRatio": null,
+          "gap": "17px",
+          "media": null,
+          "wide": false
+        }
+      },
+      {
+        "role": "card grid",
+        "level": "panel",
+        "tag": "div",
+        "classes": "dashboard-grid",
+        "heading": "学习表现趋势 看本期表现如何变化",
+        "geometry": {
+          "selector": ".dashboard-grid",
+          "mode": "grid",
+          "tracks": [
+            "1fr",
+            "1fr"
+          ],
+          "columnCount": 2,
+          "ratio": "50/50",
+          "aspectRatio": null,
+          "gap": null,
+          "media": "@media(min-width:601px) and (max-width:1190px)",
+          "wide": true
+        }
+      },
+      {
+        "role": "dashboard-left",
+        "level": "panel",
+        "tag": "div",
+        "classes": "dashboard-left",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "section",
+        "classes": "card trend-card",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "content section",
+        "level": "panel",
+        "tag": "div",
+        "classes": "section-head",
+        "heading": "学习表现趋势 看本期表现如何变化"
+      },
+      {
+        "role": "segmented",
+        "level": "panel",
+        "tag": "div",
+        "classes": "segmented compact",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "chart-meta",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "legend",
+        "level": "panel",
+        "tag": "div",
+        "classes": "legend",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "trend-chart",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "chart-foot",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "section",
+        "classes": "card comparison-card",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "content section",
+        "level": "panel",
+        "tag": "div",
+        "classes": "section-head",
+        "heading": "知识点表现对比"
+      },
+      {
+        "role": "tool row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "compare-legend",
+        "heading": "综合学情罗盘 ⓘ"
+      },
+      {
+        "role": "legend",
+        "level": "panel",
+        "tag": "div",
+        "classes": "legend",
+        "heading": "综合学情罗盘 ⓘ"
+      },
+      {
+        "role": "comparison-columns",
+        "level": "panel",
+        "tag": "div",
+        "classes": "comparison-columns",
+        "heading": "综合学情罗盘 ⓘ",
+        "geometry": {
+          "selector": ".comparison-columns",
+          "mode": "grid",
+          "tracks": [
+            "35px",
+            "35px",
+            "56px"
+          ],
+          "columnCount": 3,
+          "ratio": null,
+          "aspectRatio": null,
+          "gap": "5px",
+          "media": "@media(min-width:1200px) and (max-width:1490px)",
+          "wide": true
+        }
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "section",
+        "classes": "card compass-card",
+        "heading": "综合学情罗盘 ⓘ"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "compass-heading",
+        "heading": "综合学情罗盘 ⓘ"
+      },
+      {
+        "role": "compass-summary",
+        "level": "panel",
+        "tag": "div",
+        "classes": "compass-summary",
+        "heading": "! 重点关注与建议"
+      },
+      {
+        "role": "dashboard-right",
+        "level": "panel",
+        "tag": "div",
+        "classes": "dashboard-right",
+        "heading": "! 重点关注与建议"
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "aside",
+        "classes": "card focus-card",
+        "heading": "! 重点关注与建议"
+      },
+      {
+        "role": "content section",
+        "level": "panel",
+        "tag": "div",
+        "classes": "section-head",
+        "heading": "! 重点关注与建议"
+      },
+      {
+        "role": "focus-rule",
+        "level": "panel",
+        "tag": "div",
+        "classes": "focus-rule",
+        "heading": "给家长的一份简报"
+      },
+      {
+        "role": "content section",
+        "level": "region",
+        "tag": "section",
+        "classes": "brief-card",
+        "heading": "给家长的一份简报",
+        "geometry": {
+          "selector": ".brief-card",
+          "mode": "grid",
+          "tracks": [
+            "33px",
+            "minmax(0,1fr)",
+            "auto"
+          ],
+          "columnCount": 3,
+          "ratio": null,
+          "aspectRatio": null,
+          "gap": null,
+          "media": "@media(min-width:601px) and (max-width:1190px)",
+          "wide": true
+        }
+      },
+      {
+        "role": "brief-icon",
+        "level": "panel",
+        "tag": "div",
+        "classes": "brief-icon",
+        "heading": "给家长的一份简报"
+      },
+      {
+        "role": "content section",
+        "level": "panel",
+        "tag": "div",
+        "classes": "brief-content",
+        "heading": "给家长的一份简报"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "brief-heading",
+        "heading": "给家长的一份简报"
+      },
+      {
+        "role": "brief-source",
+        "level": "panel",
+        "tag": "div",
+        "classes": "brief-source",
+        "heading": "知识点明细"
+      },
+      {
+        "role": "analysis panel",
+        "level": "region",
+        "tag": "section",
+        "classes": "card detail-card",
+        "heading": "知识点明细"
+      },
+      {
+        "role": "title row",
+        "level": "panel",
+        "tag": "div",
+        "classes": "section-head table-heading",
+        "heading": "知识点明细"
+      },
+      {
+        "role": "page frame",
+        "level": "panel",
+        "tag": "div",
+        "classes": "table-container",
+        "heading": "数据口径说明"
+      },
+      {
+        "role": "table-foot",
+        "level": "panel",
+        "tag": "div",
+        "classes": "table-foot",
+        "heading": "数据口径说明"
+      },
+      {
+        "role": "drawer-top",
+        "level": "panel",
+        "tag": "div",
+        "classes": "drawer-top",
+        "heading": "数据口径说明"
+      },
+      {
+        "role": "drawer-top",
+        "level": "panel",
+        "tag": "div",
+        "classes": "drawer-top",
+        "heading": "数据口径说明"
+      },
+      {
+        "role": "scene panel",
+        "level": "panel",
+        "tag": "div",
+        "classes": "chart-tooltip",
+        "heading": null
+      },
+      {
+        "role": "feedback",
+        "level": "panel",
+        "tag": "div",
+        "classes": "toast",
+        "heading": null
+      },
+      {
+        "role": "sr-only",
+        "level": "panel",
+        "tag": "div",
+        "classes": "sr-only",
+        "heading": null
+      }
+    ],
+    "roles": [
+      "top bar",
+      "content section",
+      "metrics",
+      "analysis panel"
+    ],
+    "skeletonOrder": [
+      "top bar",
+      "content section",
+      "metrics",
+      "content section",
+      "analysis panel"
+    ],
+    "geometry": [
+      {
+        "selector": ".bar-pair",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1fr)",
+          "35px",
+          "35px",
+          "56px"
+        ],
+        "columnCount": 4,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": "5px",
+        "media": "@media(min-width:1200px) and (max-width:1490px)",
+        "wide": true
+      },
+      {
+        "selector": ".brief-card",
+        "mode": "grid",
+        "tracks": [
+          "33px",
+          "minmax(0,1fr)",
+          "auto"
+        ],
+        "columnCount": 3,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": null,
+        "media": "@media(min-width:601px) and (max-width:1190px)",
+        "wide": true
+      },
+      {
+        "selector": ".comparison-columns",
+        "mode": "grid",
+        "tracks": [
+          "35px",
+          "35px",
+          "56px"
+        ],
+        "columnCount": 3,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": "5px",
+        "media": "@media(min-width:1200px) and (max-width:1490px)",
+        "wide": true
+      },
+      {
+        "selector": ".knowledge-bar-row",
+        "mode": "grid",
+        "tracks": [
+          "130px",
+          "minmax(0,1fr)",
+          "7px"
+        ],
+        "columnCount": 3,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": null,
+        "media": "@media(min-width:1200px)",
+        "wide": true
+      },
+      {
+        "selector": ".dashboard-grid",
+        "mode": "grid",
+        "tracks": [
+          "1fr",
+          "1fr"
+        ],
+        "columnCount": 2,
+        "ratio": "50/50",
+        "aspectRatio": null,
+        "gap": null,
+        "media": "@media(min-width:601px) and (max-width:1190px)",
+        "wide": true
+      },
+      {
+        "selector": ".metric-card,.metric-card:first-child",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1fr)",
+          "68px"
+        ],
+        "columnCount": 2,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": null,
+        "media": "@media(min-width:1200px) and (max-width:1490px)",
+        "wide": true
+      },
+      {
+        "selector": ".metrics",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1fr)",
+          "minmax(0,1fr)",
+          "minmax(0,1fr)",
+          "minmax(0,1fr)"
+        ],
+        "columnCount": 4,
+        "ratio": "25/25/25/25",
+        "aspectRatio": null,
+        "gap": "17px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".dashboard-header",
+        "mode": "grid",
+        "tracks": [
+          "auto",
+          "1fr",
+          "auto"
+        ],
+        "columnCount": 3,
+        "ratio": null,
+        "aspectRatio": null,
+        "gap": "22px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".stage-stats",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1fr)",
+          "minmax(0,1fr)",
+          "minmax(0,1fr)"
+        ],
+        "columnCount": 3,
+        "ratio": "34/33/33",
+        "aspectRatio": null,
+        "gap": "8px",
+        "media": null,
+        "wide": false
+      },
+      {
+        "selector": ".analysis-grid",
+        "mode": "grid",
+        "tracks": [
+          "minmax(0,1.85fr)",
+          "minmax(300px,1fr)"
+        ],
+        "columnCount": 2,
+        "ratio": "65/35",
+        "aspectRatio": null,
+        "gap": "22px",
+        "media": null,
+        "wide": false
+      }
+    ],
+    "counts": {
+      "regions": 5,
+      "panels": 35,
+      "headings": 8,
+      "hasProgress": false,
+      "hasNavigation": false,
+      "hasCardGrid": true
+    }
+  }
+}

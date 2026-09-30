@@ -1,0 +1,24 @@
+{
+  "id": "DodTSshV05",
+  "status": "succeeded",
+  "step": "completed",
+  "progress": 100,
+  "message": "Classroom generation completed",
+  "createdAt": "2026-09-21T07:46:37.588Z",
+  "updatedAt": "2026-09-21T07:46:38.118Z",
+  "inputSummary": {
+    "requirementPreview": "Explain dependency injection with four short scenes",
+    "hasPdf": false,
+    "pdfTextLength": 0,
+    "pdfImageCount": 0
+  },
+  "scenesGenerated": 2,
+  "startedAt": "2026-09-21T07:46:37.598Z",
+  "totalScenes": 2,
+  "completedAt": "2026-09-21T07:46:38.117Z",
+  "result": {
+    "classroomId": "0Q6Q8wZVRm",
+    "url": "http://127.0.0.1:44070/classroom/0Q6Q8wZVRm",
+    "scenesCount": 2
+  }
+}
